@@ -31,14 +31,20 @@
 
         var jqr = (function(){
 <<<<<<< HEAD
+<<<<<<< HEAD
             var wrap, qr;
 
             function bindEvt( evt ){
 =======
+=======
+>>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
 
             var wrap, qr;
 
             function bindEvt( evt){
+<<<<<<< HEAD
+>>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
+=======
 >>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
 
                 switch(evt){
@@ -56,6 +62,10 @@
                 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
 =======
 
 >>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
