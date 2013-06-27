@@ -3,6 +3,7 @@
  * Author: ant777
  * Date: 26.06.13
  * Time: 11:17
+ * http://stackoverflow.com/questions/2432764/how-to-change-a-remote-repository-uri-using-git
  */
 (function( $ ) {
 
@@ -29,9 +30,10 @@
         var opts = $.extend( {}, defaults, options );
 
         var jqr = (function(){
+
             var wrap, qr;
 
-            function bindEvt( evt ){
+            function bindEvt( evt){
 
                 switch(evt){
                     case 'hover':
