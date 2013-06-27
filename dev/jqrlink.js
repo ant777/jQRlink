@@ -30,26 +30,16 @@
         var opts = $.extend( {}, defaults, options );
 
         var jqr = (function(){
-<<<<<<< HEAD
-<<<<<<< HEAD
-            var wrap, qr;
-
-            function bindEvt( evt ){
-=======
-=======
->>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
 
             var wrap, qr;
 
             function bindEvt( evt){
-<<<<<<< HEAD
->>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
-=======
->>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
 
                 switch(evt){
                     case 'hover':
-                        $elf.on('mouseenter')
+                        $elf.on('mouseenter', function(){
+
+                        })
                 }
             }
 
@@ -61,14 +51,7 @@
                     bindEvt( opts.display )
                 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
 
->>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
-=======
-
->>>>>>> 27b534d177e666b5f9b2dc5926778ad86894fe8a
             }
         }());
         jqr.init();
