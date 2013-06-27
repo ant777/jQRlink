@@ -47,6 +47,7 @@
                     bindEvt( opts.display )
                 }
 
+
             }
         }());
         jqr.init();
