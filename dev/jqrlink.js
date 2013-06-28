@@ -37,9 +37,34 @@
 
                 switch(evt){
                     case 'hover':
-                        $elf.on('mouseenter', function(){
-
-                        })
+                        qr.css({
+                            position: 'absolute',
+                            bottom: '100%',
+                            left: '100%',
+                            borderLeft: '1px solid #ddd',
+                            borderBottom: '1px solid #ddd'
+                        }).hide();
+                        wrap
+                            .css({
+                                display: 'inline-block',
+                                position: 'relative'
+                            })
+                        $elf
+                            .on('mouseenter', function(){
+                                qr.show();
+                                wrap.css({
+                                    borderRight: '1px solid #ddd',
+                                    borderTop: '1px solid #ddd'
+                                })
+                            })
+                            .on('mouseleave', function(){
+                                qr.hide();
+                                wrap
+                                    .css({
+                                        borderRight: '1px solid transparent',
+                                        borderTop: '1px solid  transparent'
+                                    })
+                            })
                 }
             }
 
